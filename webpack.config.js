@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    main: './src/index.js',
+    main: './src/fullcalendar-webcomponent.js',
   },
   plugins: [
     new HtmlWebpackPlugin({  
